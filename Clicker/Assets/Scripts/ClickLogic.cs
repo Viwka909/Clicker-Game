@@ -8,7 +8,8 @@ using UnityEngine.SceneManagement;
 public class ClickLogic : MonoBehaviour
 {
     [SerializeField] private int _hearts;
-    public void OnClick(){
+    public void OnClick()
+    {
         _hearts++;
         Debug.Log("123");
     }
