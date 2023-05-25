@@ -8,8 +8,8 @@ public class GiftButton : MonoBehaviour
 {
         [SerializeField]
          public int _ButtonValue;
-         public FirstGirlData barvalue;
-         public FirstGirlData hrtval;
+         public GirlData barvalue;
+         public GirlData hrtval;
     
     public void OnClick()
     {

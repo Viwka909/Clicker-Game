@@ -9,7 +9,7 @@ public class ProgBar : MonoBehaviour
 {
 
     public int maximum = 100;
-    [SerializeField] private FirstGirlData barvalue;
+    [SerializeField] private GirlData barvalue;
     public int current;
     public Image Mask;
     

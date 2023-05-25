@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu]
-public class FirstGirlData : ScriptableObject
+public class GirlData : ScriptableObject
 {
     [SerializeField]
     private int _value;
@@ -12,5 +12,6 @@ public class FirstGirlData : ScriptableObject
         get { return _value; }
         set { _value = value; }
     }
+     private void OnEnable() => hideFlags = HideFlags.DontUnloadUnusedAsset;
 
 }

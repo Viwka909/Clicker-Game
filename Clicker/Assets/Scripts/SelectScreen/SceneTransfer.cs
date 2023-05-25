@@ -5,10 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class SceneTransfer : MonoBehaviour
 {
-    [SerializeField] private string _selectscreen = "FirstGirl";
+    [SerializeField] private string _selectscreen;
     public void OnClick()
     {
-
         SceneManager.LoadScene(_selectscreen);
         Debug.Log("3156");
     }

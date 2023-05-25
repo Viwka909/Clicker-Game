@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class DataUpload : MonoBehaviour
 {
-    public FirstGirlData hrtval;
+    public GirlData hrtval;
     public Text HeartsValue;
     void Start()
     {

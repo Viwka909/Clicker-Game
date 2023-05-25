@@ -6,7 +6,8 @@ using UnityEngine.UI;
 public class ClickLogic : MonoBehaviour
 {
     [SerializeField] public int _hearts = 0;
-    public FirstGirlData hrtval;
+    public int clickcounter = 0;
+    public GirlData hrtval;
     
     public Text HeartsValue;
     
