@@ -10,9 +10,12 @@ public class GiftButton : MonoBehaviour
          public int _ButtonValue;
          public GirlData barvalue;
          public GirlData hrtval;
+    [SerializeField] private ClickLogic _clickLogic;
     
+
     public void OnClick()
     {
+
         ProgBar Pbar = FindObjectOfType<ProgBar>();
         int init = FindObjectOfType<ProgBar>().current;
         ClickLogic counter = FindObjectOfType<ClickLogic>();
@@ -21,13 +24,14 @@ public class GiftButton : MonoBehaviour
        
         if (hearts >= _ButtonValue)
         {
+            _clickLogic.ClickValue += 1;
+            Debug.Log("Click value increased");
             hearts -= _ButtonValue;
             counter._hearts-=_ButtonValue;
             HeartsValue.text = hearts.ToString();
             Pbar.current = init + _ButtonValue;
             barvalue.Value += _ButtonValue;
             hrtval.Value -= _ButtonValue;
-
         }
         Debug.Log("Pressed");
         Debug.Log(_ButtonValue);
