@@ -13,6 +13,10 @@ public class SoundSettings : MonoBehaviour
     {
         _button.onClick.AddListener(SoundSettingsPanel);
     }
+    private void Update()
+    {
+        PanelClose();
+    }
     private void SoundSettingsPanel()
     {
         if (_isEnabled == false)
@@ -25,10 +29,14 @@ public class SoundSettings : MonoBehaviour
             _settingsButton.SetActive(false);
             _isEnabled = false;
         }
-        else if (Input.GetKeyDown(KeyCode.Escape) && _isEnabled == true)
+    }
+    private void PanelClose()
+    {
+        if (_isEnabled == true && Input.GetKeyDown(KeyCode.Escape) )
         {
             _settingsButton.SetActive(false);
             _isEnabled = false;
         }
     }
+
 }
