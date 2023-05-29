@@ -274,6 +274,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Answer5
       objectReference: {fileID: 0}
+    - target: {fileID: 2354014418918800983, guid: 11449e7376cbbe4469be5df2d2ab569e, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2368820775470388614, guid: 11449e7376cbbe4469be5df2d2ab569e, type: 3}
       propertyPath: m_RootOrder
       value: 1
