@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6204dead3545d7f479fbbc7a45e607ad, type: 3}
   m_Name: 2ndBarProg
   m_EditorClassIdentifier: 
-  _value: 50
+  _value: 0
