@@ -378,6 +378,14 @@ PrefabInstance:
       propertyPath: m_PlaneDistance
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2775906195907354192, guid: 11449e7376cbbe4469be5df2d2ab569e, type: 3}
+      propertyPath: Authors
+      value: 
+      objectReference: {fileID: 1899397834}
+    - target: {fileID: 2775906195949159016, guid: 11449e7376cbbe4469be5df2d2ab569e, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3144042509373492696, guid: 11449e7376cbbe4469be5df2d2ab569e, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -426,9 +434,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Answer4
       objectReference: {fileID: 0}
+    - target: {fileID: 4383146829690723525, guid: 11449e7376cbbe4469be5df2d2ab569e, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4383146829690723525, guid: 11449e7376cbbe4469be5df2d2ab569e, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -5550827873343156190, guid: 0d0896d074526fa4fa4a5d6d4c835a54, type: 2}
     - target: {fileID: 4584294297623616316, guid: 11449e7376cbbe4469be5df2d2ab569e, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4593115585564767642, guid: 11449e7376cbbe4469be5df2d2ab569e, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4899219617602903163, guid: 11449e7376cbbe4469be5df2d2ab569e, type: 3}
       propertyPath: m_RootOrder
@@ -541,6 +561,10 @@ PrefabInstance:
     - target: {fileID: 6121356076378948805, guid: 11449e7376cbbe4469be5df2d2ab569e, type: 3}
       propertyPath: m_Layer
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6121356077184501738, guid: 11449e7376cbbe4469be5df2d2ab569e, type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6121356077189181184, guid: 11449e7376cbbe4469be5df2d2ab569e, type: 3}
       propertyPath: m_Interactable
@@ -801,3 +825,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1899397834 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4158337666031396721, guid: 11449e7376cbbe4469be5df2d2ab569e, type: 3}
+  m_PrefabInstance: {fileID: 50728408}
+  m_PrefabAsset: {fileID: 0}

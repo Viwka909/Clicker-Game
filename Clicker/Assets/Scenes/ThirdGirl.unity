@@ -142,6 +142,26 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2662310903445372570, guid: c73f80e1fe7f7c54db717b3d93b217f2, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3626350455969884787, guid: c73f80e1fe7f7c54db717b3d93b217f2, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3626350455969884787, guid: c73f80e1fe7f7c54db717b3d93b217f2, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -5550827873343156190, guid: 0d0896d074526fa4fa4a5d6d4c835a54, type: 2}
+    - target: {fileID: 3851737633293755110, guid: c73f80e1fe7f7c54db717b3d93b217f2, type: 3}
+      propertyPath: Authors
+      value: 
+      objectReference: {fileID: 261332625}
+    - target: {fileID: 3851737633352613598, guid: c73f80e1fe7f7c54db717b3d93b217f2, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4404930448339387384, guid: c73f80e1fe7f7c54db717b3d93b217f2, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -184,6 +204,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4404930450013581209, guid: c73f80e1fe7f7c54db717b3d93b217f2, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4404930450059917088, guid: c73f80e1fe7f7c54db717b3d93b217f2, type: 3}
+      propertyPath: m_FontData.m_Alignment
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4404930450071986133, guid: c73f80e1fe7f7c54db717b3d93b217f2, type: 3}
@@ -285,6 +309,11 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 4404930448281025711, guid: c73f80e1fe7f7c54db717b3d93b217f2, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c73f80e1fe7f7c54db717b3d93b217f2, type: 3}
+--- !u!1 &261332625 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5216367416158601790, guid: c73f80e1fe7f7c54db717b3d93b217f2, type: 3}
+  m_PrefabInstance: {fileID: 261332624}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &556647163
 GameObject:
   m_ObjectHideFlags: 0

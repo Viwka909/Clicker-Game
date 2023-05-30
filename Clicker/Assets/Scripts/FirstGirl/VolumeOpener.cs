@@ -1,16 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Linq;
 
-public class SoundSettings : MonoBehaviour
+public class VolumeOpener : MonoBehaviour
 {
-    [SerializeField] private GameObject _settingsButton;
-    private bool _isEnabled = false;
-    Button[] _buttons;
-
+    [SerializeField] GameObject Authors;
+    public Button[] _buttons;
+    public bool _state = true;
     private void Start()
     {
         _buttons = GameObject.FindGameObjectsWithTag("ScreenButton").Select(obj => obj.GetComponent<Button>()).ToArray();
@@ -19,38 +17,39 @@ public class SoundSettings : MonoBehaviour
     {
         PanelClose();
     }
-    public void SoundSettingsPanel()
+
+    public void OnClick()
     {
-        if (_isEnabled == false)
+        if (_state == true)
         {
-            _settingsButton.SetActive(true);
             foreach (Button button in _buttons)
             {
                 button.interactable = false;
             }
-            _isEnabled = true;
+            Authors.SetActive(true);
+            _state = false;
         }
-        else if (_isEnabled == true) 
+        else if(_state == false)
         {
-            _settingsButton.SetActive(false);
             foreach (Button button in _buttons)
             {
                 button.interactable = true;
             }
-            _isEnabled = false;
+            Authors.SetActive(false);
+            _state = true;
         }
-    }
-    private void PanelClose()
-    {
-        if (_isEnabled == true && Input.GetKeyDown(KeyCode.Escape) )
-        {
-            _settingsButton.SetActive(false);
-            foreach (Button button in _buttons)
-            {
-                button.interactable = true;
-            }
-            _isEnabled = false;
-        }
-    }
 
+    }
+     public void PanelClose()
+    {
+        if (_state == false && Input.GetKeyDown(KeyCode.Escape) )
+        {
+             foreach (Button button in _buttons)
+            {
+                button.interactable = true;
+            }
+            Authors.SetActive(false);
+            _state = true;
+        }
+    }
 }
