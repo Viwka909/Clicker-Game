@@ -10,9 +10,16 @@ public class GiftButton : MonoBehaviour
          public int _ButtonValue;
          public GirlData barvalue;
          public GirlData hrtval;
-    [SerializeField] private ClickLogic _clickLogic;
-    
 
+    [SerializeField] private ClickLogic _clickLogic;
+    [SerializeField] private int _clickBoost;
+    public int ClickCount;
+    public bool IsBought = false;
+
+    private void Start()
+    {
+        Debug.Log(IsBought);
+    }
     public void OnClick()
     {
 
@@ -24,7 +31,10 @@ public class GiftButton : MonoBehaviour
        
         if (hearts >= _ButtonValue)
         {
-            _clickLogic.ClickValue += 1;
+            IsBought = true;
+            ClickCount = 4;
+            Debug.Log(ClickCount);
+            _clickLogic.ClickValue += _clickBoost;
             Debug.Log("Click value increased");
             hearts -= _ButtonValue;
             counter._hearts-=_ButtonValue;
@@ -32,8 +42,12 @@ public class GiftButton : MonoBehaviour
             Pbar.current = init + _ButtonValue;
             barvalue.Value += _ButtonValue;
             hrtval.Value -= _ButtonValue;
+
         }
-        Debug.Log("Pressed");
-        Debug.Log(_ButtonValue);
+        
+
+        //Debug.Log("Pressed");
+        //Debug.Log(_ButtonValue);
     }
+
 }
