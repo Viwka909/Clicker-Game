@@ -14,7 +14,7 @@ public class MessagePop : MonoBehaviour
         if (_check == true)
         {
             SpeechBubble.SetActive(true);
-            MessageText.text = _messages[Random.Range(0, 2)];
+            MessageText.text = _messages[Random.Range(0, 3)];
             _check = false;
             Invoke("DisableMesage", 7.0f);
         }
