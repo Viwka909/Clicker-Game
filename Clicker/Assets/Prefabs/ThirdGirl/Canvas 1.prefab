@@ -238,6 +238,7 @@ MonoBehaviour:
   _hearts: 0
   clickcounter: 0
   hrtval: {fileID: 11400000, guid: d97d3e3950e02d548b36c3d959965d31, type: 2}
+  modifier: 1
   HeartsValue: {fileID: 4404930450059917088}
 --- !u!1 &4404930448403127926
 GameObject:
@@ -626,7 +627,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maximum: 100
   barvalue: {fileID: 11400000, guid: 6833ac1aa8aa1e340b69b1f45ba79e47, type: 2}
-  current: 65
+  current: 30
   Mask: {fileID: 4404930449263927026}
 --- !u!1 &4404930448493834593
 GameObject:
@@ -1566,7 +1567,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 0
-  m_FillAmount: 0.65
+  m_FillAmount: 0.3
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0

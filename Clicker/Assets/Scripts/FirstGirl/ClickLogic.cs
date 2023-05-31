@@ -6,18 +6,19 @@ using UnityEngine.UI;
 public class ClickLogic : MonoBehaviour
 {
     [SerializeField] public int _hearts = 0;
+
     public int clickcounter = 0;
     public GirlData hrtval;
-    
+    public int modifier = 1;
     public Text HeartsValue;
     
 
     public void OnClick()
     {
-        _hearts++;
-        hrtval.Value += 1;
+        Debug.Log(modifier);
+        _hearts += 1 * modifier;
+        hrtval.Value += 1 * modifier;
         HeartsValue.text  =  _hearts.ToString(); 
-        Debug.Log("123");
     }
      void Start()
     {

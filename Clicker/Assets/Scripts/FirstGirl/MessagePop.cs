@@ -6,9 +6,20 @@ using TMPro;
 public class MessagePop : MonoBehaviour
 {
     bool _check = true;
-    string[] _messages = new string[3] { "Sample Text 1", "Sample Text 2", "Sample Text 3" };
-    [SerializeField] public GameObject SpeechBubble;
+     [SerializeField]
+    public GameObject SpeechBubble;
+    public string first = "";
+    public string second = "";
+    public string third = "";
+    public string fourth = "";
+    string[] _messages = new string[4] { "", "", "","" };
     public TextMeshProUGUI MessageText;
+    private void Start() {
+        _messages[0] = first;
+        _messages[1] = second;
+        _messages[2] = third;
+        _messages[3] = fourth;
+    }
     public void Message()
     {
         if (_check == true)

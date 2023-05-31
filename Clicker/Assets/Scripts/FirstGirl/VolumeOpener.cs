@@ -6,8 +6,11 @@ using System.Linq;
 
 public class VolumeOpener : MonoBehaviour
 {
-    [SerializeField] GameObject Authors;
+    [SerializeField] GameObject Window;
     public Button[] _buttons;
+    public AudioData _MasterVol;
+    public AudioData _MusicVol;
+    public AudioData _SFXVol;
     public bool _state = true;
     private void Start()
     {
@@ -26,16 +29,19 @@ public class VolumeOpener : MonoBehaviour
             {
                 button.interactable = false;
             }
-            Authors.SetActive(true);
+            Window.SetActive(true);
             _state = false;
         }
         else if(_state == false)
         {
+            PlayerPrefs.GetFloat(_MasterVol.ToString(),_MasterVol.Value);
+            PlayerPrefs.GetFloat(_MusicVol.ToString(),_MusicVol.Value);
+            PlayerPrefs.GetFloat(_SFXVol.ToString(),_SFXVol.Value);
             foreach (Button button in _buttons)
             {
                 button.interactable = true;
             }
-            Authors.SetActive(false);
+            Window.SetActive(false);
             _state = true;
         }
 
@@ -44,11 +50,14 @@ public class VolumeOpener : MonoBehaviour
     {
         if (_state == false && Input.GetKeyDown(KeyCode.Escape) )
         {
+            PlayerPrefs.GetFloat(_MasterVol.ToString(),_MasterVol.Value);
+            PlayerPrefs.GetFloat(_MusicVol.ToString(),_MusicVol.Value);
+            PlayerPrefs.GetFloat(_SFXVol.ToString(),_SFXVol.Value);
              foreach (Button button in _buttons)
             {
                 button.interactable = true;
             }
-            Authors.SetActive(false);
+            Window.SetActive(false);
             _state = true;
         }
     }

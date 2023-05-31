@@ -326,9 +326,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6776ea18dec3e15409f47e7eef49b68e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Girl: {fileID: 0}
+  HappyState: {fileID: 21300000, guid: b5734bd41c3ac28479f8ab523e3c858f, type: 3}
+  SadState: {fileID: 21300000, guid: 1201ff49e8245b040919daf49f0a43b0, type: 3}
+  NormalState: {fileID: 21300000, guid: ca768696747cb2e4cbe9f2af84f372a0, type: 3}
   _ButtonValue: 15
   barvalue: {fileID: 11400000, guid: 44150d9d084c6fe4eac25e914c1ec53a, type: 2}
   hrtval: {fileID: 11400000, guid: ba4715e0045910d43ab913af21922eab, type: 2}
+  buffable: 0
+  badgift: 0
+  modifier: 2
+  timerDuration: 10
 --- !u!1 &7866090187633939807
 GameObject:
   m_ObjectHideFlags: 0
