@@ -346,7 +346,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 0
-  m_FillAmount: 0
+  m_FillAmount: 0.01
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
@@ -818,7 +818,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maximum: 100
   barvalue: {fileID: 11400000, guid: 34c6875c81510324ab0a45394e25d85f, type: 2}
-  current: 0
+  current: 1
   Mask: {fileID: 6119511515967336719}
 --- !u!1 &6119511516808896156
 GameObject:
@@ -1122,6 +1122,7 @@ MonoBehaviour:
   _hearts: 0
   clickcounter: 0
   hrtval: {fileID: 11400000, guid: 34c6875c81510324ab0a45394e25d85f, type: 2}
+  modifier: 1
   HeartsValue: {fileID: 6119511516243286237}
 --- !u!1 &6119511517202978262
 GameObject:
@@ -1958,7 +1959,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1461051221950385943, guid: b5bdbfe69aa190f44a34602612a082f4, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6089379940418241503, guid: b5bdbfe69aa190f44a34602612a082f4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target

@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 public class StartGame : MonoBehaviour
 {
     [SerializeField] private string _selectscreen = "SelectScreen";
+    public Animator transition;
+    public AudioSource audioSource;
+    public GameObject FirstLoad;
     public AudioData _MasterVol;
     public AudioData _MusicVol;
     public AudioData _SFXVol;
@@ -16,9 +19,28 @@ public class StartGame : MonoBehaviour
     public GirlData barvalue3;
     public GirlData hrtval3;
     public GirlData barvalue4;
-    public GirlData hrtval4;
+    public GirlData hrtval4; 
     public void OnClick()
+    {   
+        FirstLoad.SetActive(true);
+        StartCoroutine(LoadLevel());
+        StartCoroutine(StartFade(audioSource,2,0));
+    }
+    public static IEnumerator StartFade(AudioSource audioSource, float duration, float targetVolume)
     {
+        float currentTime = 0;
+        float start = audioSource.volume;
+        while (currentTime < duration)
+        {
+            currentTime += Time.deltaTime;
+            audioSource.volume = Mathf.Lerp(start, targetVolume, currentTime / duration);
+            yield return null;
+        }
+        yield break;
+    }
+    IEnumerator LoadLevel()
+    {
+        
         _MasterVol.Value = PlayerPrefs.GetFloat(_MasterVol.ToString(), 1);
         _MusicVol.Value = PlayerPrefs.GetFloat(_MusicVol.ToString(), 1);
         _SFXVol.Value = PlayerPrefs.GetFloat(_SFXVol.ToString(), 1);
@@ -30,6 +52,8 @@ public class StartGame : MonoBehaviour
         hrtval2.Value = PlayerPrefs.GetInt(hrtval2.ToString(), 0);
         hrtval3.Value = PlayerPrefs.GetInt(hrtval3.ToString(), 0);
         hrtval4.Value = PlayerPrefs.GetInt(hrtval4.ToString(), 0);
+        transition.SetTrigger("Start");
+        yield return new WaitForSeconds(3);
         SceneManager.LoadScene(_selectscreen);
     }
 }
