@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class ClickLogic : MonoBehaviour
 {
@@ -12,7 +13,7 @@ public class ClickLogic : MonoBehaviour
     
     public GirlData hrtval;
     public int modifier = 1;
-    public Text HeartsValue;
+    public TextMeshProUGUI HeartsValue;
     public GameObject StrokeObject;
     
 

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using UnityEngine.UI;
+using TMPro;
 
 
 public class GiftButton : MonoBehaviour
@@ -25,7 +26,7 @@ public class GiftButton : MonoBehaviour
         int init = FindObjectOfType<ProgBar>().current;
         ClickLogic counter = FindObjectOfType<ClickLogic>();
         int hearts = FindObjectOfType<ClickLogic>()._hearts;
-        Text HeartsValue = FindObjectOfType<ClickLogic>().HeartsValue;
+        TextMeshProUGUI HeartsValue = FindObjectOfType<ClickLogic>().HeartsValue;
         Timer timer =FindObjectOfType<Timer>();
 
         if (hearts >= _ButtonValue)
