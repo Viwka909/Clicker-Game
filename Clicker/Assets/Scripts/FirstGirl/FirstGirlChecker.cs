@@ -23,11 +23,11 @@ public class FirstGirlChecker : MonoBehaviour
     }
     void Update()
     {
-        if (bar.Value >= 50 && Girl2.Value == 0)
+        if (bar.Value >= 187 && Girl2.Value == 0)
         {
             Event.SetActive(true);
         }
-        if(bar.Value >= 100 && Girl1.Value != 2){
+        if(bar.Value >= 375 && Girl1.Value != 2){
             Girl1.Value = 2;
         }
         if(Girl1.Value == 2 && Girl2.Value == 2 && Girl3.Value == 2 && Girl4.Value == 2 && End.Value == 0){

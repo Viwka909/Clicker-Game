@@ -14,7 +14,7 @@ public class FourthGirlChecker : MonoBehaviour
 
     void Update()
     {
-        if(bar.Value >= 100 && Girl4.Value != 2){
+        if(bar.Value >= 780 && Girl4.Value != 2){
             Girl4.Value = 2;
         }
         if(Girl1.Value == 2 && Girl2.Value == 2 && Girl3.Value == 2 && Girl4.Value == 2 && End.Value == 0){

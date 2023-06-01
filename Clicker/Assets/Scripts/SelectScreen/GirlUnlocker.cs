@@ -17,7 +17,7 @@ public class GirlUnlocker : MonoBehaviour
     public Button Girl4Button2;
        void Start()
     {
-        if (bar1.Value >= 50)
+        if (bar1.Value >= 187)
         {
             Girl2Button1.interactable = true;
             
@@ -26,7 +26,7 @@ public class GirlUnlocker : MonoBehaviour
         {
             Girl3Button1.interactable = true;         
         }
-         if (bar3.Value >= 50)
+         if (bar3.Value >= 330)
         {
             Girl4Button1.interactable = true;
         }
