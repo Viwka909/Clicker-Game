@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class TextAppear : MonoBehaviour
@@ -11,21 +12,22 @@ public class TextAppear : MonoBehaviour
     public float delay = 0.1f;
     public string fullText;
     public TextMeshProUGUI Text;
+    public GameObject Next;
     private string currentText = "";
     int check = 0;
 
-    void OnClick()
+    public void OnClick()
     {
         if (check == 0)
         {
             check++;
+            Next.SetActive(false);
             StartCoroutine(ShowText());
         }
         else
         {
             StartCoroutine(LoadLevel());
         }
-
     }
 
     IEnumerator ShowText()
@@ -36,6 +38,7 @@ public class TextAppear : MonoBehaviour
             Text.text = currentText;
             yield return new WaitForSeconds(delay);
         }
+        Next.SetActive(true);
     }
     IEnumerator LoadLevel()
     {
