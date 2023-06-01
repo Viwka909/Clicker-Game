@@ -123,6 +123,28 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &361549048 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2992953283289331421, guid: 3c00bcd7cdcada546aa68caae29a096c, type: 3}
+  m_PrefabInstance: {fileID: 2992953282178047022}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &361549050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361549048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b40995c5be6645910e7c78183dcd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transition: {fileID: 589875589}
+  _selectscreen: FirstGirl
+  _Scenetransition: MahouIntro
+  audioSource: {fileID: 1868025405}
+  Girl1: {fileID: 11400000, guid: b5ba744d39235de459b9e86b7862814a, type: 2}
 --- !u!1 &589875587 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3934953252790878273, guid: e584e6bc279fe9345a33053b98d3e4db, type: 3}
@@ -269,6 +291,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1868025405 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 792156832280599328, guid: 3c00bcd7cdcada546aa68caae29a096c, type: 3}
+  m_PrefabInstance: {fileID: 2992953282178047022}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1926991691
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -394,9 +421,45 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2598752867570921959, guid: 3c00bcd7cdcada546aa68caae29a096c, type: 3}
+      propertyPath: Girl1
+      value: 
+      objectReference: {fileID: 11400000, guid: b5ba744d39235de459b9e86b7862814a, type: 2}
+    - target: {fileID: 2598752867570921959, guid: 3c00bcd7cdcada546aa68caae29a096c, type: 3}
       propertyPath: transition
       value: 
       objectReference: {fileID: 589875589}
+    - target: {fileID: 2598752867570921959, guid: 3c00bcd7cdcada546aa68caae29a096c, type: 3}
+      propertyPath: _transition
+      value: MahouIntro
+      objectReference: {fileID: 0}
+    - target: {fileID: 2598752867570921959, guid: 3c00bcd7cdcada546aa68caae29a096c, type: 3}
+      propertyPath: _Scenetransition
+      value: MahouIntro
+      objectReference: {fileID: 0}
+    - target: {fileID: 2992953282108278207, guid: 3c00bcd7cdcada546aa68caae29a096c, type: 3}
+      propertyPath: m_Colors.m_NormalColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2992953282108278207, guid: 3c00bcd7cdcada546aa68caae29a096c, type: 3}
+      propertyPath: m_Colors.m_NormalColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2992953282108278207, guid: 3c00bcd7cdcada546aa68caae29a096c, type: 3}
+      propertyPath: m_Colors.m_NormalColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2992953282108278207, guid: 3c00bcd7cdcada546aa68caae29a096c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2992953282178047028}
+    - target: {fileID: 2992953282108278207, guid: 3c00bcd7cdcada546aa68caae29a096c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 2992953282108278207, guid: 3c00bcd7cdcada546aa68caae29a096c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SceneTransfer234, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 2992953282589626978, guid: 3c00bcd7cdcada546aa68caae29a096c, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -489,6 +552,42 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 2992953283172597199, guid: 3c00bcd7cdcada546aa68caae29a096c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2992953282178047024}
+    - target: {fileID: 2992953283172597199, guid: 3c00bcd7cdcada546aa68caae29a096c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 2992953283172597199, guid: 3c00bcd7cdcada546aa68caae29a096c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SceneTransfer234, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2992953283368738750, guid: 3c00bcd7cdcada546aa68caae29a096c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 361549050}
+    - target: {fileID: 2992953283368738750, guid: 3c00bcd7cdcada546aa68caae29a096c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 2992953283368738750, guid: 3c00bcd7cdcada546aa68caae29a096c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SceneTransfer, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2992953283490058703, guid: 3c00bcd7cdcada546aa68caae29a096c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2992953282178047026}
+    - target: {fileID: 2992953283490058703, guid: 3c00bcd7cdcada546aa68caae29a096c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 2992953283490058703, guid: 3c00bcd7cdcada546aa68caae29a096c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SceneTransfer234, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4183420227912638075, guid: 3c00bcd7cdcada546aa68caae29a096c, type: 3}
       propertyPath: transition
       value: 
@@ -501,5 +600,75 @@ PrefabInstance:
       propertyPath: transition
       value: 
       objectReference: {fileID: 589875589}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2598752867570921959, guid: 3c00bcd7cdcada546aa68caae29a096c, type: 3}
+    - {fileID: 4183420227912638075, guid: 3c00bcd7cdcada546aa68caae29a096c, type: 3}
+    - {fileID: 5983995296828952609, guid: 3c00bcd7cdcada546aa68caae29a096c, type: 3}
+    - {fileID: 4544987528680686505, guid: 3c00bcd7cdcada546aa68caae29a096c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3c00bcd7cdcada546aa68caae29a096c, type: 3}
+--- !u!1 &2992953282178047023 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8398507337457729796, guid: 3c00bcd7cdcada546aa68caae29a096c, type: 3}
+  m_PrefabInstance: {fileID: 2992953282178047022}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2992953282178047024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2992953282178047023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c74c3167ef52b44484c99375c834114, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transition: {fileID: 589875589}
+  _selectscreen: ThirdGirl
+  _Scenetransition: RogueIntro
+  audioSource: {fileID: 1868025405}
+  Girl: {fileID: 11400000, guid: b809fc78ae18f6a40aa48719dc2f24b8, type: 2}
+--- !u!1 &2992953282178047025 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5334931238540743743, guid: 3c00bcd7cdcada546aa68caae29a096c, type: 3}
+  m_PrefabInstance: {fileID: 2992953282178047022}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2992953282178047026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2992953282178047025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c74c3167ef52b44484c99375c834114, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transition: {fileID: 589875589}
+  _selectscreen: SecondGirl
+  _Scenetransition: MaidIntro
+  audioSource: {fileID: 1868025405}
+  Girl: {fileID: 11400000, guid: 4d20dd7d5fcf36a44a7440ae272279a4, type: 2}
+--- !u!1 &2992953282178047027 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4192912038305247303, guid: 3c00bcd7cdcada546aa68caae29a096c, type: 3}
+  m_PrefabInstance: {fileID: 2992953282178047022}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2992953282178047028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2992953282178047027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c74c3167ef52b44484c99375c834114, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transition: {fileID: 589875589}
+  _selectscreen: FourthGirl
+  _Scenetransition: KnightIntro
+  audioSource: {fileID: 1868025405}
+  Girl: {fileID: 11400000, guid: 986f1475ae6951d45bd5ac6fb469aa1c, type: 2}

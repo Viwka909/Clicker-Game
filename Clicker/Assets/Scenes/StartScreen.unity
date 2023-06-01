@@ -341,6 +341,10 @@ PrefabInstance:
       propertyPath: transition
       value: 
       objectReference: {fileID: 1437306716}
+    - target: {fileID: 5690397966745060359, guid: dbe1f5474d53f654ba4e69b3d66954ad, type: 3}
+      propertyPath: _selectscreen
+      value: InitialTransition
+      objectReference: {fileID: 0}
     - target: {fileID: 9045518908034629712, guid: dbe1f5474d53f654ba4e69b3d66954ad, type: 3}
       propertyPath: m_Pivot.x
       value: 0

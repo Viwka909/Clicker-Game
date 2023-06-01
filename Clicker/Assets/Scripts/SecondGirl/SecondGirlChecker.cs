@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FirstGirlChecker : MonoBehaviour
+public class SecondGirlChecker : MonoBehaviour
 {
     public GirlUnlockCheck Girl1;
     public GirlUnlockCheck Girl2;
