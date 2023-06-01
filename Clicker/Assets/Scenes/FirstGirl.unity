@@ -518,6 +518,14 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4668983060469198589, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668983061625092656, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
+      propertyPath: buffable
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4668983061625092656, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
       propertyPath: _ButtonCost
       value: 5
@@ -647,11 +655,31 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 105212696}
     - target: {fileID: 6854935664660786548, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
+      propertyPath: badgift
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854935664660786548, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
+      propertyPath: buffable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854935664660786548, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
       propertyPath: _ButtonCost
       value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 6854935664660786548, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
       propertyPath: _ButtonValue
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854935664708329707, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854935664871876796, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
+      propertyPath: badgift
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854935664871876796, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
+      propertyPath: buffable
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6854935664871876796, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
@@ -660,6 +688,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6854935664871876796, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
       propertyPath: _ButtonValue
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854935665104016736, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854935665125484460, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
+      propertyPath: badgift
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854935665125484460, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
+      propertyPath: buffable
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6854935665125484460, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
@@ -679,6 +719,14 @@ PrefabInstance:
       value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 6854935665189653209, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
+      propertyPath: badgift
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854935665189653209, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
+      propertyPath: buffable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854935665189653209, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
       propertyPath: _ButtonCost
       value: 5
       objectReference: {fileID: 0}
@@ -686,12 +734,36 @@ PrefabInstance:
       propertyPath: _ButtonValue
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6854935665261797049, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854935665573959048, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
+      propertyPath: badgift
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854935665573959048, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
+      propertyPath: buffable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6854935665573959048, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
       propertyPath: _ButtonCost
       value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 6854935665573959048, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
       propertyPath: _ButtonValue
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854935665580687062, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854935665678338873, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
+      propertyPath: badgift
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854935665678338873, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
+      propertyPath: buffable
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6854935665678338873, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
@@ -702,12 +774,32 @@ PrefabInstance:
       propertyPath: _ButtonValue
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6854935665729766996, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854935665731859297, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854935665751212461, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
+      propertyPath: badgift
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854935665751212461, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
+      propertyPath: buffable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6854935665751212461, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
       propertyPath: _ButtonCost
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6854935665751212461, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
       propertyPath: _ButtonValue
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854935665985436785, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6854935666148979750, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
@@ -718,6 +810,22 @@ PrefabInstance:
       propertyPath: _ButtonValue
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 6854935666194430393, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854935666250637300, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854935666350369307, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
+      propertyPath: badgift
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854935666350369307, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
+      propertyPath: buffable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6854935666350369307, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
       propertyPath: _ButtonCost
       value: 25
@@ -726,12 +834,28 @@ PrefabInstance:
       propertyPath: _ButtonValue
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6854935666357076293, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854935666669275764, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
+      propertyPath: badgift
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854935666669275764, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
+      propertyPath: buffable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6854935666669275764, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
       propertyPath: _ButtonCost
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6854935666669275764, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
       propertyPath: _ButtonValue
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854935666739289620, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

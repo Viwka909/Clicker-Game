@@ -228,7 +228,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3934953253140285070, guid: e584e6bc279fe9345a33053b98d3e4db, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3934953253140285073, guid: e584e6bc279fe9345a33053b98d3e4db, type: 3}
       propertyPath: m_Pivot.x
@@ -456,6 +456,18 @@ PrefabInstance:
       propertyPath: transition
       value: 
       objectReference: {fileID: 1396331408}
+    - target: {fileID: 4868970111677676403, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868970111791689491, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
+      propertyPath: badgift
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868970111791689491, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
+      propertyPath: buffable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4868970111791689491, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
       propertyPath: _ButtonCost
       value: 5
@@ -480,12 +492,36 @@ PrefabInstance:
       propertyPath: _ButtonValue
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 4868970111929211676, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868970112075910518, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
+      propertyPath: badgift
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868970112075910518, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
+      propertyPath: buffable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4868970112075910518, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
       propertyPath: _ButtonCost
       value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4868970112075910518, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
       propertyPath: _ButtonValue
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868970112264684833, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868970112287000766, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
+      propertyPath: badgift
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868970112287000766, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
+      propertyPath: buffable
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4868970112287000766, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
@@ -497,6 +533,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4868970112348747603, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
+      propertyPath: badgift
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868970112348747603, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
+      propertyPath: buffable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868970112348747603, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
       propertyPath: _ButtonCost
       value: 25
       objectReference: {fileID: 0}
@@ -504,6 +548,18 @@ PrefabInstance:
       propertyPath: _ButtonValue
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4868970112376451242, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868970112396984934, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
+      propertyPath: badgift
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868970112396984934, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
+      propertyPath: buffable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4868970112396984934, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
       propertyPath: _ButtonCost
       value: 25
@@ -513,11 +569,39 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4868970112749096913, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
+      propertyPath: badgift
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868970112749096913, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
+      propertyPath: buffable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868970112749096913, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
       propertyPath: _ButtonCost
       value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 4868970112749096913, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
       propertyPath: _ButtonValue
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868970112771810447, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868970112869808702, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868970112888732638, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868970113000615870, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
+      propertyPath: badgift
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868970113000615870, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
+      propertyPath: buffable
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4868970113000615870, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
@@ -526,18 +610,54 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4868970113000615870, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
       propertyPath: _ButtonValue
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868970113355028139, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4868970113377674343, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
       propertyPath: _ButtonCost
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 4868970113403315102, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868970113467145331, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868970113487360492, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
+      propertyPath: badgift
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868970113487360492, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
+      propertyPath: buffable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4868970113487360492, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
       propertyPath: _ButtonCost
       value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4868970113487360492, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
       propertyPath: _ButtonValue
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4868970113676138939, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6663109136605662007, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6663109138113224698, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
+      propertyPath: badgift
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6663109138113224698, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
+      propertyPath: buffable
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6663109138113224698, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
