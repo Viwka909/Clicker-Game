@@ -13,6 +13,7 @@ public class GiftButton : MonoBehaviour
     public  Sprite HappyState;
     public Sprite SadState;
     public Sprite NormalState;
+    public int _ButtonCost;
     public int _ButtonValue;
     public GirlData barvalue;
     public GirlData hrtval;
@@ -29,14 +30,14 @@ public class GiftButton : MonoBehaviour
         TextMeshProUGUI HeartsValue = FindObjectOfType<ClickLogic>().HeartsValue;
         Timer timer =FindObjectOfType<Timer>();
 
-        if (hearts >= _ButtonValue)
+        if (hearts >= _ButtonCost)
         {
-            hearts -= _ButtonValue;
-            counter._hearts -= _ButtonValue;
+            hearts -= _ButtonCost;
+            counter._hearts -= _ButtonCost;
             HeartsValue.text = hearts.ToString();
             Pbar.current = init + _ButtonValue;
             barvalue.Value += _ButtonValue;
-            hrtval.Value -= _ButtonValue;
+            hrtval.Value -= _ButtonCost;
             PlayerPrefs.SetInt(hrtval.ToString(), hrtval.Value);
             PlayerPrefs.SetInt(barvalue.ToString(), hrtval.Value);
             
