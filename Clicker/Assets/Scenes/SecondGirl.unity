@@ -552,54 +552,6 @@ PrefabInstance:
       propertyPath: transition
       value: 
       objectReference: {fileID: 1396331408}
-    - target: {fileID: 8108720794354242817, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 7dff68b88ab2bda4d94d379a1a80b266, type: 3}
-    - target: {fileID: 8108720794354242878, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 533.66
-      objectReference: {fileID: 0}
-    - target: {fileID: 8108720794354242878, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 269.37
-      objectReference: {fileID: 0}
-    - target: {fileID: 8108720794354242878, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 519
-      objectReference: {fileID: 0}
-    - target: {fileID: 8108720794354242878, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -277
-      objectReference: {fileID: 0}
-    - target: {fileID: 8108720794354242879, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8108720795321434688, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 472.12
-      objectReference: {fileID: 0}
-    - target: {fileID: 8108720795321434688, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 160.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 8108720795321434688, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.15
-      objectReference: {fileID: 0}
-    - target: {fileID: 8108720795321434688, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -33.52
-      objectReference: {fileID: 0}
-    - target: {fileID: 8108720795321434691, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
-      propertyPath: m_fontSize
-      value: 72
-      objectReference: {fileID: 0}
-    - target: {fileID: 8108720795321434691, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
-      propertyPath: m_enableAutoSizing
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8288987294267226754, guid: 3aa0c10291037d9469222b75b520cb14, type: 3}
       propertyPath: m_Name
       value: Canvas 1
