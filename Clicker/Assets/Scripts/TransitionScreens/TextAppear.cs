@@ -9,6 +9,7 @@ public class TextAppear : MonoBehaviour
 {
     [SerializeField] private string _selectscreen = "SelectScreen";
     public Animator transition;
+    public AudioSource audioSource;
     public float delay = 0.1f;
     public string fullText;
     public TextMeshProUGUI Text;
@@ -27,6 +28,7 @@ public class TextAppear : MonoBehaviour
         else
         {
             StartCoroutine(LoadLevel());
+            StartCoroutine(StartFade(audioSource,2,0));
         }
     }
 
@@ -45,5 +47,17 @@ public class TextAppear : MonoBehaviour
         transition.SetTrigger("Start");
         yield return new WaitForSeconds(3);
         SceneManager.LoadScene(_selectscreen);
+    }
+     public static IEnumerator StartFade(AudioSource audioSource, float duration, float targetVolume)
+    {
+        float currentTime = 0;
+        float start = audioSource.volume;
+        while (currentTime < duration)
+        {
+            currentTime += Time.deltaTime;
+            audioSource.volume = Mathf.Lerp(start, targetVolume, currentTime / duration);
+            yield return null;
+        }
+        yield break;
     }
 }

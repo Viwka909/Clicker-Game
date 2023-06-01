@@ -3,19 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneTransfer : MonoBehaviour
+public class SceneTransfer234 : MonoBehaviour
 {
     public Animator transition;
     [SerializeField] private string _selectscreen = "SelectScreen";
     [SerializeField] private string _Scenetransition = "SelectScreen";
     public AudioSource audioSource;
-    public GirlUnlockCheck Girl1;
+    public GirlUnlockCheck Girl;
 
     public void OnClick()
     {
         StartCoroutine(StartFade(audioSource, 1, 0));
-        if (Girl1.Value == 0)
+        if (Girl.Value == 0)
         {
+            Girl.Value++;
             StartCoroutine(LoadTransition());
         }
         else
