@@ -9,8 +9,31 @@ public class UnlockChecker : MonoBehaviour
     public GirlUnlockCheck Girl2;
     public GirlUnlockCheck Girl3;
     public GirlUnlockCheck Girl4;
+    public GirlUnlockCheck End;
+    public GameObject Event2;
+    public GameObject Event3;
+    public GameObject Event4;
+    public GameObject EventEnd;
+    public GirlData bar1;
+    public GirlData bar2;
+    public GirlData bar3;
+    public GirlData bar4;
     void Start()
     {
-        
+        if (bar1.Value >= 50 && Girl2.Value == 0)
+        {
+            Event2.SetActive(true);
+        }
+        if (bar2.Value >= 50 && Girl3.Value == 0)
+        {
+            Event3.SetActive(true);
+        }
+        if (bar3.Value >= 50 && Girl4.Value == 0)
+        {
+            Event4.SetActive(true);
+        }
+        if(Girl1.Value == 2 && Girl2.Value == 2 && Girl3.Value == 2 && Girl4.Value == 2 && End.Value == 0){
+            EventEnd.SetActive(true);
+        }
     }
 }
