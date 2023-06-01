@@ -11,13 +11,13 @@ public class SceneTransfer1 : MonoBehaviour
 
     public void OnClick()
     {
-        StartCoroutine(StartFade(audioSource, 2, 0));
+        StartCoroutine(StartFade(audioSource, 1, 0));
         StartCoroutine(LoadLevel());
     }
     IEnumerator LoadLevel()
     {
         transition.SetTrigger("Start");
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(1);
         SceneManager.LoadScene(_selectscreen);
     }
     public static IEnumerator StartFade(AudioSource audioSource, float duration, float targetVolume)
