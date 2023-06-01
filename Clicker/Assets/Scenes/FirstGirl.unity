@@ -376,6 +376,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas1
       objectReference: {fileID: 0}
+    - target: {fileID: 4294731535064549600, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
+      propertyPath: current
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 4294731535064549600, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
+      propertyPath: maximum
+      value: 400
+      objectReference: {fileID: 0}
     - target: {fileID: 4294731535065767704, guid: fc04155b9cba6084d9e069b0d2d4b9ce, type: 3}
       propertyPath: transition
       value: 
