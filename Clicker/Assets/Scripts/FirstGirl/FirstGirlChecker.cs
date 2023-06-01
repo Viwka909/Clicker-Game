@@ -33,5 +33,6 @@ public class FirstGirlChecker : MonoBehaviour
         if(Girl1.Value == 2 && Girl2.Value == 2 && Girl3.Value == 2 && Girl4.Value == 2 && End.Value == 0){
             Event.SetActive(true);
         }
+        
     }
 }
