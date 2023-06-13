@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 21
+  controlID: 92
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 348
     height: 620
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -268,8 +268,8 @@ MonoBehaviour:
     y: 0
     width: 1049
     height: 620
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts/PassableData/GirlUnlock
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts/PassableData/GirlUnlock
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Projects\Clicker-Game\Clicker
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 28630000
-    m_LastClickedID: 25384
-    m_ExpandedIDs: 00000000026300000463000006630000086300000a6300000c6300000e63000010630000126300001463000000ca9a3b
+    scrollPos: {x: 0, y: 98}
+    m_SelectedIDs: dc640000
+    m_LastClickedID: 25820
+    m_ExpandedIDs: 000000007c6400007e64000080640000826400008464000086640000886400008a6400008c6400008e640000ae64000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000026300000463000006630000086300000a6300000c6300000e630000106300001263000014630000
+    m_ExpandedIDs: 000000007c6400007e64000080640000826400008464000086640000886400008a6400008c6400008e640000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -488,23 +488,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: e0640000
       m_LastClickedID: 0
-      m_ExpandedIDs: 2413ffffa014ffff6616fffff817ffff7419ffff2c1bffffa01bffff0a1dffff5c1dffff961dffff001fffff401fffffbc20ffff3e22ffffd623ffffae29ffff2c2dffff2233fffff838fffff03effff0245ffff4a45ffff2448ffff6649ffff984affffee4bffff8a4cffff004dffff2e5cffff7e61ffff8061fffffe62ffff0063ffff0c68ffff0c6dffff1c73ffff1e73ffff9c74ffff487bffff4a7bffff4081ffff4281ffff6887ffff6a87ffff6e90ffff7090ffffc092ffffc292ffff1295ffff1495ffff7495ffff4c98ffff4e98ffffbcaeffffaeb0ffff02b1ffffeeb2fffff0b2ffffdec1ffffe8c2ffffe0c7ffffecc8ffff18cbffff20cbffff64cbffff96cfffffc0d3ffff08d4ffffe0d6ffff68d7ffffe8d7ffff08d8ffff18d8ffff1ad8ffffa4d9ffff9edbffff70dcffffb4dcffff8cddffff42f4ffff80f4ffff90f4ffff92f4ffffe4f5ffffb2f6fffffef8ffff2cfbffff72650000a2650000ee9500001c9700009a9700001a9d00002c9d00004e9d0000ccae0000e8c70000
+      m_ExpandedIDs: 2cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Canvas1
-        m_OriginalName: Canvas1
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 49206
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -794,9 +794,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 90}
+    m_Target: {x: 0.039608918, y: -0.3555508, z: -8.956008}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 90}
+    m_Value: {x: 0.039608918, y: -0.3555508, z: -8.956008}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -847,9 +847,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 10.198645
+    m_Target: 7.4445167
     speed: 2
-    m_Value: 10.198645
+    m_Value: 7.4445167
   m_Ortho:
     m_Target: 1
     speed: 2

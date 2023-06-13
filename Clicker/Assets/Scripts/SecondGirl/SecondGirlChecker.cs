@@ -14,11 +14,11 @@ public class SecondGirlChecker : MonoBehaviour
 
     void Update()
     {
-        if (bar.Value >= 50 && Girl3.Value == 0)
+        if (bar.Value >= 260 && Girl3.Value == 0)
         {
             Event.SetActive(true);
         }
-        if(bar.Value >= 100 && Girl2.Value != 2){
+        if(bar.Value >= 520 && Girl2.Value != 2){
             Girl2.Value = 2;
         }
         if(Girl1.Value == 2 && Girl2.Value == 2 && Girl3.Value == 2 && Girl4.Value == 2 && End.Value == 0){

@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1e90025db53eeb4794d024f1e223127, type: 3}
   m_Name: 1stGirl
   m_EditorClassIdentifier: 
-  _value: 1
+  _value: 0

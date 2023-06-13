@@ -20,15 +20,15 @@ public class UnlockChecker : MonoBehaviour
     public GirlData bar4;
     void Start()
     {
-        if (bar1.Value >= 50 && Girl2.Value == 0)
+        if (bar1.Value >= 187 && Girl2.Value == 0)
         {
             Event2.SetActive(true);
         }
-        if (bar2.Value >= 50 && Girl3.Value == 0)
+        if (bar2.Value >= 260 && Girl3.Value == 0)
         {
             Event3.SetActive(true);
         }
-        if (bar3.Value >= 50 && Girl4.Value == 0)
+        if (bar3.Value >= 330 && Girl4.Value == 0)
         {
             Event4.SetActive(true);
         }

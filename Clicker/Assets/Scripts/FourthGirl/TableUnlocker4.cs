@@ -22,22 +22,22 @@ public class TableUnlocker4 : MonoBehaviour
     }
     void Update()
     {
-        if (barprog.Value >= 20)
+        if (barprog.Value >= 156)
         {
             _unlock1.text = "Черный";
             _unlock2.text = "Стейк с кровью";
         }
-        if (barprog.Value >= 40)
+        if (barprog.Value >= 312)
         {
             _unlock3.text = "Дуэли";
             _unlock4.text = "Мой наряд – мои доспехи, А мой отдых – жаркий бой.";
         }
-        if (barprog.Value >= 60)
+        if (barprog.Value >= 468)
         {
             _unlock5.text = "Белый";
             _unlock6.text = "Шоколад";
         }
-        if (barprog.Value >= 80)
+        if (barprog.Value >= 624)
         {
             _unlock7.text = "190 см";
             _unlock8.text = "80 кг";
